@@ -1,0 +1,1 @@
+"""Objets et services communs."""

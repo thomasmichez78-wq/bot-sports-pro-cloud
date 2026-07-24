@@ -1,0 +1,1 @@
+"""Rapprochement explicable entre fournisseurs."""

@@ -1,0 +1,206 @@
+{
+  "purpose": "prospective_live_model_history",
+  "collection_started_at": "2026-07-24T18:35:50.080830+00:00",
+  "dates_collected": [
+    "2026-07-23"
+  ],
+  "competitions": [
+    {
+      "league_id": 11,
+      "name": "CONMEBOL Sudamericana"
+    },
+    {
+      "league_id": 71,
+      "name": "Serie A"
+    },
+    {
+      "league_id": 72,
+      "name": "Serie B"
+    },
+    {
+      "league_id": 106,
+      "name": "Ekstraklasa"
+    },
+    {
+      "league_id": 113,
+      "name": "Allsvenskan"
+    },
+    {
+      "league_id": 119,
+      "name": "Superliga"
+    },
+    {
+      "league_id": 128,
+      "name": "Liga Profesional Argentina"
+    },
+    {
+      "league_id": 235,
+      "name": "Premier League"
+    },
+    {
+      "league_id": 244,
+      "name": "Veikkausliiga"
+    },
+    {
+      "league_id": 357,
+      "name": "Premier Division"
+    }
+  ],
+  "history": [
+    {
+      "fixture_id": 1547775,
+      "starts_at": "2026-07-23T00:00:00+02:00",
+      "status": "FT",
+      "league_id": 11,
+      "season": 2026,
+      "round": "Round of 32",
+      "home_team_id": 1128,
+      "home_team": "Independiente Medellin",
+      "away_team_id": 133,
+      "away_team": "Vasco DA Gama",
+      "home_goals": 2,
+      "away_goals": 2
+    },
+    {
+      "fixture_id": 1492294,
+      "starts_at": "2026-07-23T00:30:00+02:00",
+      "status": "FT",
+      "league_id": 71,
+      "season": 2026,
+      "round": "Regular Season - 19",
+      "home_team_id": 147,
+      "home_team": "Coritiba",
+      "away_team_id": 121,
+      "away_team": "Palmeiras",
+      "home_goals": 1,
+      "away_goals": 3
+    },
+    {
+      "fixture_id": 1520783,
+      "starts_at": "2026-07-23T00:30:00+02:00",
+      "status": "FT",
+      "league_id": 72,
+      "season": 2026,
+      "round": "Regular Season - 19",
+      "home_team_id": 129,
+      "home_team": "Ceara",
+      "away_team_id": 146,
+      "away_team": "CRB",
+      "home_goals": 0,
+      "away_goals": 1
+    },
+    {
+      "fixture_id": 1520788,
+      "starts_at": "2026-07-23T00:30:00+02:00",
+      "status": "FT",
+      "league_id": 72,
+      "season": 2026,
+      "round": "Regular Season - 19",
+      "home_team_id": 1223,
+      "home_team": "Operario-PR",
+      "away_team_id": 139,
+      "away_team": "Ponte Preta",
+      "home_goals": 3,
+      "away_goals": 2
+    },
+    {
+      "fixture_id": 1520785,
+      "starts_at": "2026-07-23T01:30:00+02:00",
+      "status": "FT",
+      "league_id": 72,
+      "season": 2026,
+      "round": "Regular Season - 19",
+      "home_team_id": 151,
+      "home_team": "Goias",
+      "away_team_id": 123,
+      "away_team": "Sport Recife",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "fixture_id": 1492292,
+      "starts_at": "2026-07-23T02:30:00+02:00",
+      "status": "FT",
+      "league_id": 71,
+      "season": 2026,
+      "round": "Regular Season - 19",
+      "home_team_id": 132,
+      "home_team": "Chapecoense-sc",
+      "away_team_id": 127,
+      "away_team": "Flamengo",
+      "home_goals": 0,
+      "away_goals": 4
+    },
+    {
+      "fixture_id": 1492296,
+      "starts_at": "2026-07-23T02:30:00+02:00",
+      "status": "FT",
+      "league_id": 71,
+      "season": 2026,
+      "round": "Regular Season - 19",
+      "home_team_id": 119,
+      "home_team": "Internacional",
+      "away_team_id": 135,
+      "away_team": "Cruzeiro",
+      "home_goals": 1,
+      "away_goals": 2
+    },
+    {
+      "fixture_id": 1492298,
+      "starts_at": "2026-07-23T02:30:00+02:00",
+      "status": "FT",
+      "league_id": 71,
+      "season": 2026,
+      "round": "Regular Season - 19",
+      "home_team_id": 126,
+      "home_team": "Sao Paulo",
+      "away_team_id": 134,
+      "away_team": "Atletico Paranaense",
+      "home_goals": 1,
+      "away_goals": 2
+    },
+    {
+      "fixture_id": 1520786,
+      "starts_at": "2026-07-23T02:30:00+02:00",
+      "status": "FT",
+      "league_id": 72,
+      "season": 2026,
+      "round": "Regular Season - 19",
+      "home_team_id": 755,
+      "home_team": "Nautico Recife",
+      "away_team_id": 148,
+      "away_team": "Londrina",
+      "home_goals": 2,
+      "away_goals": 1
+    },
+    {
+      "fixture_id": 1547776,
+      "starts_at": "2026-07-23T02:30:00+02:00",
+      "status": "FT",
+      "league_id": 11,
+      "season": 2026,
+      "round": "Round of 32",
+      "home_team_id": 446,
+      "home_team": "Lanus",
+      "away_team_id": 2562,
+      "away_team": "Cienciano",
+      "home_goals": 2,
+      "away_goals": 0
+    },
+    {
+      "fixture_id": 1547779,
+      "starts_at": "2026-07-23T02:30:00+02:00",
+      "status": "FT",
+      "league_id": 11,
+      "season": 2026,
+      "round": "Round of 32",
+      "home_team_id": 2546,
+      "home_team": "Sporting Cristal",
+      "away_team_id": 794,
+      "away_team": "RB Bragantino",
+      "home_goals": 0,
+      "away_goals": 0
+    }
+  ],
+  "generated_at": "2026-07-24T18:35:50.363425+00:00"
+}
