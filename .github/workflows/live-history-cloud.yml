@@ -1,0 +1,49 @@
+name: Historique football quotidien
+
+on:
+  schedule:
+    - cron: "27 6 * * *"
+      timezone: "Europe/Paris"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: football-live-history
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Récupérer le projet
+        uses: actions/checkout@v7
+
+      - name: Installer Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Archiver les résultats de la veille
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          APP_ENV: cloud
+          APP_TIMEZONE: Europe/Paris
+        run: python app.py update-live-football-history
+
+      - name: Conserver l'historique dans le dépôt privé
+        run: |
+          git config user.name "Bot Sports Pro"
+          git config user.email "bot-sports-pro@users.noreply.github.com"
+          git add -f storage/processed/football_live_history.json
+          git add -f storage/reports/football_live_history_*.json
+          git add -f storage/cache/api_football/live_dates/*.json
+          if git diff --cached --quiet; then
+            echo "Historique déjà à jour."
+          else
+            git commit -m "Historique football quotidien"
+            git push
+          fi
