@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-07-25T10:15:55.895244+00:00",
+  "purpose": "prospective_live_model_history",
+  "target_date": "2026-07-24",
+  "api_requests": 1,
+  "cache_hits": 0,
+  "received_fixtures": 253,
+  "completed_fixtures": 239,
+  "retained_fixtures": 19,
+  "total_history": 30,
+  "collected_dates": 2,
+  "minimum_team_matches": 5,
+  "coverage": [
+    {
+      "league_id": 11,
+      "name": "CONMEBOL Sudamericana",
+      "matches": 6,
+      "observed_teams": 12,
+      "teams_ready": 0
+    },
+    {
+      "league_id": 71,
+      "name": "Serie A",
+      "matches": 6,
+      "observed_teams": 12,
+      "teams_ready": 0
+    },
+    {
+      "league_id": 72,
+      "name": "Serie B",
+      "matches": 7,
+      "observed_teams": 14,
+      "teams_ready": 0
+    },
+    {
+      "league_id": 106,
+      "name": "Ekstraklasa",
+      "matches": 2,
+      "observed_teams": 4,
+      "teams_ready": 0
+    },
+    {
+      "league_id": 113,
+      "name": "Allsvenskan",
+      "matches": 1,
+      "observed_teams": 2,
+      "teams_ready": 0
+    },
+    {
+      "league_id": 119,
+      "name": "Superliga",
+      "matches": 1,
+      "observed_teams": 2,
+      "teams_ready": 0
+    },
+    {
+      "league_id": 128,
+      "name": "Liga Profesional Argentina",
+      "matches": 4,
+      "observed_teams": 8,
+      "teams_ready": 0
+    },
+    {
+      "league_id": 235,
+      "name": "Premier League",
+      "matches": 1,
+      "observed_teams": 2,
+      "teams_ready": 0
+    },
+    {
+      "league_id": 244,
+      "name": "Veikkausliiga",
+      "matches": 1,
+      "observed_teams": 2,
+      "teams_ready": 0
+    },
+    {
+      "league_id": 357,
+      "name": "Premier Division",
+      "matches": 1,
+      "observed_teams": 2,
+      "teams_ready": 0
+    }
+  ]
+}
